@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Form Array</title>
 </head>
 <body>
     <center>
-    <p>Form array</p>
+    <h2>FORM ARRAY</h2>
     </center>
     <fieldset>
     <legend>Form array</legend>
@@ -29,9 +29,11 @@
             <input type="text" name="nama[]" required>
             <label for="">Kelas</label>
             <input type="text" name="kelas[]" required>
+            <label for="">Hobby</label>
+            <input type="text" name="hoby[]" required>
             <br>
-            <br> 
-
+            <br>
+             
             <?php } ?>
             <input type="submit" name="sbm" value="simpan">
             <input type="reset" value="reset">

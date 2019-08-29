@@ -8,8 +8,9 @@
             $kodepos = $_POST['kode'];
 			$nama = $_POST['nama'];
 			$harga = $_POST['harga'];
-			$jumlah = $_POST['jumlah'];
-			$total = $harga*$jumlah;
+            $jumlah = $_POST['jumlah'];
+            $tglpem = $_POST['tanggalpembeli'];
+            $total = $harga*$jumlah;
             
             
             echo "Nama Anda: <b>$nama1</b><br>";
@@ -22,6 +23,7 @@
             echo "Harga : <b>$harga</b><br>";
             echo "Jumlah Barang  : <b>$jumlah</b><br>";
             echo "Total : <b>$total</b><br>";
+            echo "Tanggal Pembeli : <b>$tglpem</b>";
         
         }
         

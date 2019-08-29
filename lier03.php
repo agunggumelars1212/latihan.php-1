@@ -7,6 +7,7 @@
 	<form action="liers03.php" method="post" name="input">
     <h2>PEMBELIAN BARANG</h2><hr>
         <table>
+        <center>
             <tr>
             <td>Nama Anda</td>
             <td>:</td>
@@ -38,21 +39,21 @@
             <td><input type="text" name="kode" placeholder="Kode pos..."></td>
             </tr>
 			<tr>
-				<td>Nama Barang</td>
-				<td>:</td>
-				<td><input type="text" name="nama" placeholder="Nama Barang..."></td>
+			<td>Nama Barang</td>
+			<td>:</td>
+			<td><input type="text" name="nama" placeholder="Nama Barang..."></td>
 			</tr>
 			<tr>
-				<td>Harga Barang</td>
-				<td>:</td>
-				<td><input type="text" name="harga" placeholder="Harga Barang..."></td>
+			<td>Harga Barang</td>
+			<td>:</td>
+			<td><input type="text" name="harga" placeholder="Harga Barang..."></td>
 			</tr>
 			<tr>
-				<td>Jumlah Barang</td>
-				<td>:</td>
-				<td>
-					<select name="jumlah">
-						<option value="">- PILIH -</option>
+			<td>Jumlah Barang</td>
+			<td>:</td>
+			<td>
+			<select name="jumlah">
+					<option value="">- PILIH -</option>
 						<?php for($x=1;$x<=100;$x++){ ?>
 						<option value="<?php echo $x; ?>"><?php echo $x; ?></option>
 						<?php } ?>
@@ -77,8 +78,9 @@
 					<input type="reset" name="batal" value="Batal">
 				</td>
 			</tr>
+            </center>
 		</table>
-        
 	</form>
+    <hr>
 </body>
 </html>
