@@ -2,9 +2,9 @@
 echo "Nama : Agung gumelars<br>";
 echo "Kelas : XI RPL 1<br>";
 
-for($i = 1; $i <= 10; $i++){
+for($i = 1; $i <= 100; $i++){
     echo "<br>";
-    echo "perkalian $i <br>--------------------------------<br>";
+    echo "perkalian $i <hr>";
 
     for($j = 1; $j < 11; $j++){
         $g = $i*$j;
